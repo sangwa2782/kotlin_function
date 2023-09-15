@@ -1,13 +1,17 @@
+import java.text.SimpleDateFormat
+import java.util.Date
 import java.util.Scanner
 
 
-// Write a Kotlin program to find out what version of Kotlin you are using.
+// Write a Kotlin program to display the current date and time.
 
 fun main () {
-    kotlinVersion()
+    dateandTime()
 }
 
-fun kotlinVersion() {
-    val kotlinVer = KotlinVersion.CURRENT
-    println("Your Current Version of Kotlin is : $kotlinVer")
+fun dateandTime() {
+    val dates = Date()
+    val dateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
+    val formattedDate = dateFormat.format(dates)
+    println("Current Date and Time : $formattedDate")
 }
