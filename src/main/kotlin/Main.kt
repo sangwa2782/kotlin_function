@@ -2,22 +2,15 @@
 import java.util.*
 
 
-// Kotlin Program to Check Whether a Number is Positive or Negative
+// Kotlin Program to Check Whether a Character is Alphabet or Not
 
 fun main() {
 
-    val a = 0
-
-//    if (a > 0) {
-//        println("Given number is Positive")
-//    } else {
-//        println("Given number is Negative")
-//    }
+    val c = '*'
 
     when {
-        a > 0 -> println("Given number is Positive")
-        a < 0 -> println("Given number is Negative")
-        else -> println("Given number is Zero")
+        c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z' -> println("$c is an Alphabet")
+        else -> println("$c is not an Alphabet")
     }
 
 }
