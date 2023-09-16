@@ -8,10 +8,15 @@ fun main() {
 
     val a = -1
 
-    if (a > 0) {
-        println("Given number is Positive")
-    } else {
-        println("Given number is Negative")
+//    if (a > 0) {
+//        println("Given number is Positive")
+//    } else {
+//        println("Given number is Negative")
+//    }
+
+    when {
+        a > 0 -> println("Given number is Positive")
+        else -> println("Given number is Negative")
     }
 
 }
