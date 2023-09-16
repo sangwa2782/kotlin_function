@@ -2,25 +2,15 @@
 import java.util.*
 
 
-// Kotlin Program to Find the Frequency of Character in a String
+// Kotlin Program to Remove All Whitespaces from a String
 
 fun main() {
 
-    val a = "I love my family"
-    val b = 'i'
+   var sentence = "T     his is be    t te   r  ."
+    println("Original Number : $sentence")
 
-    val c = a.lowercase()
-
-    var intencity = 0
-
-    for (i in 0..c.length-1 ) {
-        if (b == c[i]) {
-            intencity++
-        }
-    }
-    println(c)
-
-    println("Frequency of $b is : $intencity ")
+    sentence = sentence.replace("\\s".toRegex(), "")
+    println("After Replacement = $sentence")
 
   }
 

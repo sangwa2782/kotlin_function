@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="to Compute Quotient and Remainder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="the Frequency of Character in a String">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694848315552</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="the Frequency of Character in a String">
+      <option name="closed" value="true" />
+      <created>1694866057365</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694866057365</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +185,7 @@
     <MESSAGE value="Kotlin Program to Add Two Integers" />
     <MESSAGE value="Find ASCII value of a character" />
     <MESSAGE value="to Compute Quotient and Remainder" />
-    <option name="LAST_COMMIT_MESSAGE" value="to Compute Quotient and Remainder" />
+    <MESSAGE value="the Frequency of Character in a String" />
+    <option name="LAST_COMMIT_MESSAGE" value="the Frequency of Character in a String" />
   </component>
 </project>
