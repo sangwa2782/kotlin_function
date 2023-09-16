@@ -6,18 +6,20 @@ import java.util.*
 
 fun main() {
 
-    val a = 20
+    val a = 10
 
-    println("Factorial of $a is ${factorial(a)}")
+    factorial(a)
 
 }
 
-fun factorial(a: Int) : Long {
-    var b: Long = 1
+fun factorial(a: Int) {
+    var b= 1
+
+    println("Table of $a is = ")
     for (i in 1..a) {
-        b *= i.toLong()
+        println("$a * $i = ${a*i}")
     }
-    return b
+
 }
 
 
