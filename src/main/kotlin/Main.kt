@@ -2,23 +2,22 @@
 import java.util.*
 
 
-// Kotlin Program to Find Factorial of a Number
+// Kotlin Program to Find GCD of two Numbers
 
 fun main() {
 
-    val a = 10
-    var b = 0
-    var c = 1
+    val a = 81
+    var b = 72
+    var gcd = 1
 
-    println("Febonacci series of $a is : ")
+    var i = 1
 
-    for (i in 1..a) {
-        print("$b + ")
-        var sum = b + c
-        b = c
-        c = sum
+    while (i < a && i < b) {
+        if (a % i == 0 && b % i == 0)
+            gcd = i
+            ++i
     }
-
+    println("G.C.D of $a and $b is $gcd")
 }
 
 
