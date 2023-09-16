@@ -2,7 +2,7 @@
 import java.util.*
 
 
-// Kotlin Program to Find GCD of two Numbers
+// Kotlin Program to Find LCM of two Numbers
 
 fun main() {
 
@@ -17,7 +17,8 @@ fun main() {
             gcd = i
             ++i
     }
-    println("G.C.D of $a and $b is $gcd")
+    val lcm = a*b/gcd
+    println("L.C.M of $a and $b is $lcm")
 }
 
 
