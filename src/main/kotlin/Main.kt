@@ -1,30 +1,29 @@
 
-import java.util.Scanner
+import java.util.*
 
 
-
-// Kotlin Program to Compute Quotient and Remainder
+// Kotlin Program to Find the Frequency of Character in a String
 
 fun main() {
 
-    val s = Scanner(System.`in`)
+    val a = "I love my family"
+    val b = 'i'
 
-    print("Enter dividend number : ")
-    val dividend = s.nextInt()
+    val c = a.lowercase()
 
-    print("Enter divisor number : ")
-    val divisor = s.nextInt()
+    var intencity = 0
 
-    println("Your Quotient of $dividend and $divisor is : ${getQuotient(dividend,divisor)}")
-    println("Your Remainder of $dividend and $divisor is : ${getRemainder(dividend,divisor)}")
-}
+    for (i in 0..c.length-1 ) {
+        if (b == c[i]) {
+            intencity++
+        }
+    }
+    println(c)
 
-fun getQuotient(dividend:Int, divisor:Int) : Int {
-    return dividend / divisor
-}
+    println("Frequency of $b is : $intencity ")
 
-fun getRemainder(dividend:Int, divisor:Int) : Int {
-    return dividend % divisor
-}
+  }
+
+
 
 
