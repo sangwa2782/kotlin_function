@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="Kotlin Program to Add Two Integers">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="Find ASCII value of a character">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694846873652</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Find ASCII value of a character">
+      <option name="closed" value="true" />
+      <created>1694847791777</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694847791777</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +167,7 @@
     <MESSAGE value=" maximum and minimum of three numbers" />
     <MESSAGE value="Print an Integer (Entered by the User)" />
     <MESSAGE value="Kotlin Program to Add Two Integers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Program to Add Two Integers" />
+    <MESSAGE value="Find ASCII value of a character" />
+    <option name="LAST_COMMIT_MESSAGE" value="Find ASCII value of a character" />
   </component>
 </project>

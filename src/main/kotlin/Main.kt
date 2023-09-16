@@ -3,18 +3,28 @@ import java.util.Scanner
 
 
 
-// Kotlin Program to Find ASCII value of a character
+// Kotlin Program to Compute Quotient and Remainder
 
 fun main() {
 
-    val c = 'a'
-    val ascii = c.code
+    val s = Scanner(System.`in`)
 
-    println("The ASCII value of $c is: $ascii")
+    print("Enter dividend number : ")
+    val dividend = s.nextInt()
 
+    print("Enter divisor number : ")
+    val divisor = s.nextInt()
+
+    println("Your Quotient of $dividend and $divisor is : ${getQuotient(dividend,divisor)}")
+    println("Your Remainder of $dividend and $divisor is : ${getRemainder(dividend,divisor)}")
 }
 
-//fun converAsci(intValue: Char) {
-//   var value = intValue.toInt()
-//    println("ASCI value of $intValue is : $value")
-//}
+fun getQuotient(dividend:Int, divisor:Int) : Int {
+    return dividend / divisor
+}
+
+fun getRemainder(dividend:Int, divisor:Int) : Int {
+    return dividend % divisor
+}
+
+
