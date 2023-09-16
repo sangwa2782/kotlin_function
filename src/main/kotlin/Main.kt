@@ -22,6 +22,6 @@ fun main() {
 }
 
 fun add(intValue: Double, intValue2: Double) {
-    val value = intValue + intValue2
-    println("sum of $intValue and $intValue2 is $value")
+    val values = intValue + intValue2
+    println("sum of $intValue and $intValue2 is $values")
 }
