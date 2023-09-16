@@ -2,43 +2,19 @@
 import java.util.*
 
 
-// Kotlin Program to Check Whether an Alphabet is Vowel or Consonant
+// Kotlin Program to Check Whether a Number is Positive or Negative
 
 fun main() {
 
-   val a = 'e'
+    val a = -1
 
-    val vowel = listOf('a','e','i','o','u')
-
-
-
-//    if (a in vowel) {
-//        println("Character is Vowel")
-//    } else {
-//        println("Charecter is Consonent")
-//    }
-
-    when {
-        a in vowel -> println("Charecter '$a' is Vowel")
-        else -> println("Charecter '$a' is Consonent")
+    if (a > 0) {
+        println("Given number is Positive")
+    } else {
+        println("Given number is Negative")
     }
 
-
-//    checkVowel(a)
-
-
-  }
-
-
-
-
-//fun checkVowel(a:Char) {
-//    val vowel = listOf('a','e','i','o','u')
-//    when {
-//        a in vowel -> println("Charecter '$a' is Vowel")
-//        else -> println("Charecter '$a' is Consonent")
-//    }
-//}
+}
 
 
 
