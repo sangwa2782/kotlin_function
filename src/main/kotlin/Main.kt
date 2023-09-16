@@ -2,15 +2,18 @@
 import java.util.*
 
 
-// Kotlin Program to Display Characters from A to Z using loop
+// Kotlin Program to Count Number of Digits in an Integer
 
 fun main() {
 
-   val a = 'A'
+   var a = 56414564
+    var b = 0
 
-    for (i in a..'Z') {
-        print("$i, ")
+    while (a != 0) {
+        a/=10
+        b++
     }
+    println("Number of integers is : $b")
 }
 
 
