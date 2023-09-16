@@ -3,25 +3,18 @@ import java.util.Scanner
 
 
 
-// Kotlin Program to Kotlin Program to Add Two Integers
+// Kotlin Program to Find ASCII value of a character
 
 fun main() {
 
+    val c = 'a'
+    val ascii = c.code
 
-    println("Enter first Value : ")
-    val s = readln()
-    val intValue:Double = s.toDouble()
+    println("The ASCII value of $c is: $ascii")
 
-    println("Enter Second Value : ")
-    val y = readln()
-    val intValue2 : Double = y.toDouble()
-
-
-
-    add(intValue, intValue2)
 }
 
-fun add(intValue: Double, intValue2: Double) {
-    val values = intValue + intValue2
-    println("sum of $intValue and $intValue2 is $values")
-}
+//fun converAsci(intValue: Char) {
+//   var value = intValue.toInt()
+//    println("ASCI value of $intValue is : $value")
+//}
