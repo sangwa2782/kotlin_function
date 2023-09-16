@@ -6,7 +6,7 @@ import java.util.*
 
 fun main() {
 
-    val a = 81
+    val a = 36
     var b = 72
     var gcd = 1
 
