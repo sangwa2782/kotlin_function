@@ -2,16 +2,19 @@
 import java.util.*
 
 
-// Kotlin Program to Check Whether a Character is Alphabet or Not
+// Kotlin Program to Calculate the Sum of Natural Numbers
 
 fun main() {
 
-    val c = '*'
+    val c = 10
+    var a = 0
 
-    when {
-        c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z' -> println("$c is an Alphabet")
-        else -> println("$c is not an Alphabet")
+    for (i in 0..c) {
+        // a = a+i
+        a += i
     }
+
+    println("Sum is $a")
 
 }
 
