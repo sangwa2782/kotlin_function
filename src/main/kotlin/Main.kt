@@ -3,19 +3,25 @@ import java.util.Scanner
 
 
 
-// Kotlin Program to Print an Integer (Entered by the User)
+// Kotlin Program to Kotlin Program to Add Two Integers
 
 fun main() {
 
 
-    print("Enter Your Value : ")
+    println("Enter first Value : ")
     val s = readln()
+    val intValue:Double = s.toDouble()
 
-    val intValue:Int = s.toInt()
+    println("Enter Second Value : ")
+    val y = readln()
+    val intValue2 : Double = y.toDouble()
 
-    println("Your value is  : ${checkInt(intValue)}")
+
+
+    add(intValue, intValue2)
 }
 
-fun checkInt(intValue: Int):Int {
-    return intValue
+fun add(intValue: Double, intValue2: Double) {
+    val value = intValue + intValue2
+    println("sum of $intValue and $intValue2 is $value")
 }
