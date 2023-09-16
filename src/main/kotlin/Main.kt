@@ -6,7 +6,7 @@ import java.util.*
 
 fun main() {
 
-    val a = -1
+    val a = 0
 
 //    if (a > 0) {
 //        println("Given number is Positive")
@@ -16,7 +16,8 @@ fun main() {
 
     when {
         a > 0 -> println("Given number is Positive")
-        else -> println("Given number is Negative")
+        a < 0 -> println("Given number is Negative")
+        else -> println("Given number is Zero")
     }
 
 }
