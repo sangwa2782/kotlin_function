@@ -2,27 +2,24 @@
 import java.util.*
 
 
-// Kotlin Program to Display Prime Numbers Between Two Intervals
+// Check Armstrong Number for 3 digit number
 
 fun main() {
 
-    var a = 20
-    var b = 50
+    var a = 154
+    var original = a
+    var result = 0
 
-    while (a < b) {
-        var flag = false
+    while (original != 0) {
+        var digit = original % 10
+        result += Math.pow(digit.toDouble(), 3.0).toInt()
+        original /= 10
+    }
 
-        for (i in 2..a / 2) {
-            if (a % i == 0) {
-                flag = true
-                break
-            }
-        }
-        if (!flag)
-            print("$a ")
-            ++a
-
-
+    if (a == result) {
+        println("$a is armstrong")
+    } else {
+        println("$a is not a prime number.")
     }
 }
 
