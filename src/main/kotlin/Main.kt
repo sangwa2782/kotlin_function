@@ -2,20 +2,28 @@
 import java.util.*
 
 
-// Kotlin Program to Calculate the Power of a Number
+// Kotlin Program to Check Whether a Number is Palindrome or Not
 
 fun main() {
 
-    val a = 4
-    var b = 4
-    var c = 1
+    var a = 424
+    var b = 0
 
-    while (b > 0) {
-        c *= a
-        --b
+    val c:Int = a
+
+
+    while (a != 0) {
+       var digit = a % 10
+        b = b *10 + digit
+        a /=10
     }
 
-    print("Exponent value of $a is $c")
+    if (c == b) {
+        println("$c is Palindrom")
+    } else {
+        println("$c is not a palindrom")
+    }
+
 
 
 }
