@@ -2,20 +2,20 @@
 import java.util.*
 
 
-// Kotlin Program to Reverse a Number
+// Kotlin Program to Calculate the Power of a Number
 
 fun main() {
 
-    var a = 6546465
-    var b = 0
+    val a = 4
+    var b = 4
+    var c = 1
 
-    while (a != 0) {
-        val digit = a % 10
-        b = b * 10 + digit
-        a /= 10
+    while (b > 0) {
+        c *= a
+        --b
     }
 
-    print("Opposite value of $a is $b")
+    print("Exponent value of $a is $c")
 
 
 }
