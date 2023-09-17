@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="Display Prime Numbers Between Two Intervals">
+    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="Check Armstrong Number for 3 digit number">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -333,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694936946775</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Check Armstrong Number for 3 digit number">
+      <option name="closed" value="true" />
+      <created>1694937301945</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1694937301945</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +356,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Many Programs in one page" />
     <MESSAGE value="find out what version of Kotlin" />
     <MESSAGE value="display the current date and time." />
     <MESSAGE value="perform addition, subtraction, multiplication and division of two numbers" />
@@ -373,6 +380,7 @@
     <MESSAGE value="Check Whether a Number is Palindrome or Not" />
     <MESSAGE value="Calculate the Power of a Number" />
     <MESSAGE value="Display Prime Numbers Between Two Intervals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Display Prime Numbers Between Two Intervals" />
+    <MESSAGE value="Check Armstrong Number for 3 digit number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check Armstrong Number for 3 digit number" />
   </component>
 </project>
