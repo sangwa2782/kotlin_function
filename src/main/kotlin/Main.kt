@@ -2,19 +2,27 @@
 import java.util.*
 
 
-// Kotlin Program to Count Number of Digits in an Integer
+// Kotlin Program to Reverse a Number
 
 fun main() {
 
-   var a = 56414564
+    var a = 6546465
     var b = 0
 
     while (a != 0) {
-        a/=10
-        b++
+        val digit = a % 10
+        b = b * 10 + digit
+        a /= 10
     }
-    println("Number of integers is : $b")
+
+    print("Opposite value of $a is $b")
+
+
 }
+
+
+
+
 
 
 
