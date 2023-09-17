@@ -2,18 +2,35 @@
 import java.util.*
 
 
-// Kotlin Program to Display Factors of a Number
+// Kotlin Program to Make a Simple Calculator Using switch...case
 
 fun main() {
-    val a = 10
-    var b = 0
+    val s = Scanner(System.`in`)
 
-    for (i in 1..a) {
-        if (a%i==0) {
-            ++b
-        }
+    print("Enter First Number : ")
+    val a = s.nextDouble()
+
+    print("Enter Second Number : ")
+    val b = s.nextDouble()
+
+    print("Enter operator for (+, -, *, /) : ")
+    val operator = s.next()[0]
+
+    var result:Double = 0.toDouble()
+
+    when(operator) {
+        '+' -> result = a + b
+        '-' -> result = a - b
+        '*' -> result = a * b
+        '/' -> result = a / b
+
+        else -> print("Operator is not Correct")
+
+
+
+
     }
-    print("$b")
+    println("Calculation of $a $operator $b is =  $result")
 
 }
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="Check Armstrong Number for 3 digit number">
+    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="Display Factors of a Number">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -341,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694937301945</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Display Factors of a Number">
+      <option name="closed" value="true" />
+      <created>1694937669958</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1694937669958</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +364,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="find out what version of Kotlin" />
     <MESSAGE value="display the current date and time." />
     <MESSAGE value="perform addition, subtraction, multiplication and division of two numbers" />
     <MESSAGE value="check if a given number is even or odd" />
@@ -381,6 +388,7 @@
     <MESSAGE value="Calculate the Power of a Number" />
     <MESSAGE value="Display Prime Numbers Between Two Intervals" />
     <MESSAGE value="Check Armstrong Number for 3 digit number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check Armstrong Number for 3 digit number" />
+    <MESSAGE value="Display Factors of a Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Display Factors of a Number" />
   </component>
 </project>
