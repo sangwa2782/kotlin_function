@@ -9,7 +9,7 @@ fun main() {
     var a = 424
     var b = 0
 
-    val c:Int = a
+    val original:Int = a
 
 
     while (a != 0) {
@@ -18,10 +18,10 @@ fun main() {
         a /=10
     }
 
-    if (c == b) {
-        println("$c is Palindrom")
+    if (original == b) {
+        println("$original is Palindrom")
     } else {
-        println("$c is not a palindrom")
+        println("$original is not a palindrom")
     }
 
 
