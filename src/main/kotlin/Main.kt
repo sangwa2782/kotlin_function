@@ -2,36 +2,34 @@
 import java.util.*
 
 
-// write a program Kotlin Program to Make a Simple Calculator Using switch...case
+// Example 1: Program to count vowels, consonants, digits and spaces
 
-fun main() {
-    val s = Scanner(System.`in`)
+fun main(args: Array<String>) {
+    var line = "This website is aw3som3."
+    var vowels = 0
+    var consonants = 0
+    var digits = 0
+    var spaces = 0
 
-    print("Enter First Number : ")
-    val a = s.nextDouble()
-
-    print("Enter Second Number : ")
-    val b = s.nextDouble()
-
-    print("Enter operator for (+, -, *, /) : ")
-    val operator = s.next()[0]
-
-    var result:Double = 0.toDouble()
-
-    when(operator) {
-        '+' -> result = a + b
-        '-' -> result = a - b
-        '*' -> result = a * b
-        '/' -> result = a / b
-
-        else -> print("Operator is not Correct")
-
-
-
-
+    line = line.lowercase()
+    for (i in 0..line.length - 1) {
+        val ch = line[i]
+        if (ch == 'a' || ch == 'e' || ch == 'i'
+            || ch == 'o' || ch == 'u') {
+            ++vowels
+        } else if (ch in 'a'..'z') {
+            ++consonants
+        } else if (ch in '0'..'9') {
+            ++digits
+        } else if (ch == ' ') {
+            ++spaces
+        }
     }
-    println("Calculation of $a $operator $b is =  $result")
 
+    println("Vowels: $vowels")
+    println("Consonants: $consonants")
+    println("Digits: $digits")
+    println("White spaces: $spaces")
 }
 
 
