@@ -301,7 +301,31 @@
       <option name="project" value="LOCAL" />
       <updated>1694933561194</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Check Whether a Number is Palindrome or Not">
+      <option name="closed" value="true" />
+      <created>1694934007965</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1694934007965</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Check Whether a Number is Palindrome or Not">
+      <option name="closed" value="true" />
+      <created>1694934076616</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1694934076616</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Calculate the Power of a Number">
+      <option name="closed" value="true" />
+      <created>1694934136627</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1694934136627</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +340,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="takes an array of integers and prints only even numbers." />
     <MESSAGE value="counts the number of vowels in a given string" />
     <MESSAGE value="Many Programs in one page" />
     <MESSAGE value="find out what version of Kotlin" />
@@ -340,6 +363,7 @@
     <MESSAGE value="Display Characters from A to Z using loop" />
     <MESSAGE value="Kotlin Program to Count Number of Digits in an Integer" />
     <MESSAGE value="Program to Reverse a Number" />
+    <MESSAGE value="Check Whether a Number is Palindrome or Not" />
     <MESSAGE value="Calculate the Power of a Number" />
     <option name="LAST_COMMIT_MESSAGE" value="Calculate the Power of a Number" />
   </component>

@@ -2,23 +2,34 @@
 import java.util.*
 
 
-// Kotlin Program to Calculate the Power of a Number
+// Kotlin Program to Display Prime Numbers Between Two Intervals
 
 fun main() {
 
-    val a = 4
-    var b = 4
-    var c = 1
+    var a = 20
+    var b = 50
 
-    while (b > 0) {
-        c *= a
-        --b
+    while (a < b) {
+        var flag = false
+
+        for (i in 2..a / 2) {
+            if (a % i == 0) {
+                flag = true
+                break
+            }
+        }
+        if (!flag)
+            print("$a ")
+            ++a
+
+
     }
-
-    print("Exponent value of $a is $c")
-
-
 }
+
+
+
+
+
 
 
 
