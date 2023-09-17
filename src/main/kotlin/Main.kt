@@ -2,7 +2,7 @@
 import java.util.*
 
 
-// Kotlin Program to Make a Simple Calculator Using switch...case
+// write a program Kotlin Program to Make a Simple Calculator Using switch...case
 
 fun main() {
     val s = Scanner(System.`in`)
