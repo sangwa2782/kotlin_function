@@ -2,34 +2,125 @@
 import java.util.*
 
 
-// Example 1: Program to count vowels, consonants, digits and spaces
+// Example 1: Programs to print triangles using *, numbers and characters
 
 fun main(args: Array<String>) {
-    var line = "This website is aw3som3."
-    var vowels = 0
-    var consonants = 0
-    var digits = 0
-    var spaces = 0
+    val rows = 5
 
-    line = line.lowercase()
-    for (i in 0..line.length - 1) {
-        val ch = line[i]
-        if (ch == 'a' || ch == 'e' || ch == 'i'
-            || ch == 'o' || ch == 'u') {
-            ++vowels
-        } else if (ch in 'a'..'z') {
-            ++consonants
-        } else if (ch in '0'..'9') {
-            ++digits
-        } else if (ch == ' ') {
-            ++spaces
+    // ------------------------------------//
+
+
+
+//    for (i in 1..rows) {
+//        for (j in 1..i) {
+//            print("* ")
+//        }
+//        println()
+//    }
+
+//    *
+//    * *
+//    * * *
+//    * * * *
+//    * * * * *
+
+
+
+    //-------------------------------------//
+
+
+
+//    for (i in 1..rows) {
+//        for (j in i..rows) {
+//            print("* ")
+//        }
+//        println()
+//    }
+
+//    * * * * *
+//    * * * *
+//    * * *
+//    * *
+//    *
+
+
+
+    //-----------------------------------------//
+
+
+
+
+//    for (i in 1..rows) {
+//        for (j in 1..i) {
+//            print("* ")
+//        }
+//        println()
+//    }
+//    for (i in 1..rows) {
+//        for (j in i..rows-1) {
+//            print("* ")
+//        }
+//        println()
+//    }
+
+//    *
+//    * *
+//    * * *
+//    * * * *
+//    * * * * *
+//    * * * *
+//    * * *
+//    * *
+//    *
+
+    // --------------------------------------------//
+
+
+//    for (i in 1..rows) {
+//        for (j in i..rows-1) {
+//            print("- ")
+//        }
+//        for (k in 1..i) {
+//            print("* ")
+//        }
+//        println()
+//    }
+
+//    - - - - *
+//    - - - * *
+//    - - * * *
+//    - * * * *
+//    * * * * *
+
+
+    //---------------------------------------------//
+
+
+    for (i in 1..rows) {
+        for (j in i..rows) {
+            print("  ")
         }
-    }
+        for (k in 1..i) {
+            print("* ")
+        }
+        for (l in 1..i-1) {
+            print("* ")
+        }
+        println()
 
-    println("Vowels: $vowels")
-    println("Consonants: $consonants")
-    println("Digits: $digits")
-    println("White spaces: $spaces")
+    }
+//
+//            *
+//          * * *
+//        * * * * *
+//      * * * * * * *
+//    * * * * * * * * *
+
+
+
+
+
+
 }
 
 
