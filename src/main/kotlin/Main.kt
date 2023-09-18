@@ -1,127 +1,49 @@
 
 import java.util.*
 
+// Program for extension function features in Kotlin
 
-// Example 1: Programs to print triangles using *, numbers and characters
+class MyClass1 {
+    fun sayHelo () {
+        println("Say Hello")
+    }
+}
 
-fun main(args: Array<String>) {
-    val rows = 5
-
-    // ------------------------------------//
-
-
-
-//    for (i in 1..rows) {
-//        for (j in 1..i) {
-//            print("* ")
-//        }
-//        println()
-//    }
-
-//    *
-//    * *
-//    * * *
-//    * * * *
-//    * * * * *
-
-
-
-    //-------------------------------------//
-
-
-
-//    for (i in 1..rows) {
-//        for (j in i..rows) {
-//            print("* ")
-//        }
-//        println()
-//    }
-
-//    * * * * *
-//    * * * *
-//    * * *
-//    * *
-//    *
-
-
-
-    //-----------------------------------------//
-
-
-
-
-//    for (i in 1..rows) {
-//        for (j in 1..i) {
-//            print("* ")
-//        }
-//        println()
-//    }
-//    for (i in 1..rows) {
-//        for (j in i..rows-1) {
-//            print("* ")
-//        }
-//        println()
-//    }
-
-//    *
-//    * *
-//    * * *
-//    * * * *
-//    * * * * *
-//    * * * *
-//    * * *
-//    * *
-//    *
-
-    // --------------------------------------------//
-
-
-//    for (i in 1..rows) {
-//        for (j in i..rows-1) {
-//            print("- ")
-//        }
-//        for (k in 1..i) {
-//            print("* ")
-//        }
-//        println()
-//    }
-
-//    - - - - *
-//    - - - * *
-//    - - * * *
-//    - * * * *
-//    * * * * *
-
-
-    //---------------------------------------------//
-
-
-    for (i in 1..rows) {
-        for (j in i..rows) {
-            print("  ")
+class MyClass2 {
+    companion object {
+        fun display() {
+            println("Display from companion object !!")
         }
-        for (k in 1..i) {
-            print("* ")
-        }
-        for (l in 1..i-1) {
-            print("* ")
-        }
-        println()
 
     }
-//
-//            *
-//          * * *
-//        * * * * *
-//      * * * * * * *
-//    * * * * * * * * *
-
-
-
-
-
-
 }
+
+fun MyClass1.greetExtn() {
+    println("Greeting from extension function !! ")
+}
+
+fun Int.isOdd() {
+    if(this%2==0) {
+        println("Number is Even")
+    }
+}
+
+fun MyClass2.Companion.printData() {
+    println("Extension function for Companion object !!")
+}
+
+fun main() {
+    val myClass1 = MyClass1()
+    myClass1.sayHelo()
+
+    myClass1.greetExtn()
+    24.isOdd()
+
+    MyClass2.display()
+    MyClass2.printData()
+}
+
+
 
 
 
