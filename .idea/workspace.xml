@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="print triangles using *, numbers and characters">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-    </list>
+    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="Program for extension function features in Kotlin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -382,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695024587079</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Program for extension function features in Kotlin">
+      <option name="closed" value="true" />
+      <created>1695028031050</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1695028031050</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" maximum and minimum of three numbers" />
     <MESSAGE value="Print an Integer (Entered by the User)" />
     <MESSAGE value="Kotlin Program to Add Two Integers" />
     <MESSAGE value="Find ASCII value of a character" />
@@ -422,6 +426,7 @@
     <MESSAGE value="Simple Calculator Using when...case" />
     <MESSAGE value="count vowels, consonants, digits and spaces" />
     <MESSAGE value="print triangles using *, numbers and characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="print triangles using *, numbers and characters" />
+    <MESSAGE value="Program for extension function features in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Program for extension function features in Kotlin" />
   </component>
 </project>
