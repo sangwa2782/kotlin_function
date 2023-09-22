@@ -16,7 +16,7 @@ fun main(args:Array<String>){
 
 //Table using recursion function
 
-val b = 5
+val b = 12
 var count = 0
 fun rec() {
     count++
