@@ -1,19 +1,17 @@
 
-//kotlin Extension Function(Array exchange)
+//kotlin Extension Function(Companion Function)
 
 
-fun main() {
-    val list = mutableListOf(12,34,45,21)
-    println(list.swap(0,2))
+class Example {
+    companion object {
+
+    }
 }
 
-fun MutableList<Int>?.swap(first:Int, second:Int):Any {
-    if (this == null) {
-        return "null"
-    } else {
-        var temp = this[first]
-        this[first] = this[second]
-        this[second] = temp
-        return this
-    }
+fun Example.Companion.someExample() {
+    println("This is Ajay Kumar")
+}
+
+fun main() {
+    Example.someExample()
 }
