@@ -3,9 +3,11 @@ import java.util.*
 
 
 
-// Kotlin Default Argument function
+// Kotlin Default Argument function with exchange value
 fun main () {
-    var result = add(4)
+    //exchange the default value
+
+    var result = add(b = 3, a = 7)
     println(result)
 }
 
