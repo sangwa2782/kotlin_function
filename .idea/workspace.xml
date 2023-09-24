@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="Program for default and named argument in Kotlin">
-      <change afterPath="$PROJECT_DIR$/FunTest.kt" afterDir="false" />
+    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="Kotlin Recursion function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -414,7 +413,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695029481480</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Kotlin Recursion function">
+      <option name="closed" value="true" />
+      <created>1695398416465</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1695398416465</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Kotlin Recursion function">
+      <option name="closed" value="true" />
+      <created>1695399522500</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1695399522500</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +444,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kotlin Program to Add Two Integers" />
     <MESSAGE value="Find ASCII value of a character" />
     <MESSAGE value="to Compute Quotient and Remainder" />
     <MESSAGE value="the Frequency of Character in a String" />
@@ -454,6 +468,7 @@
     <MESSAGE value="print triangles using *, numbers and characters" />
     <MESSAGE value="Program for extension function features in Kotlin" />
     <MESSAGE value="Program for default and named argument in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Program for default and named argument in Kotlin" />
+    <MESSAGE value="Kotlin Recursion function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Recursion function" />
   </component>
 </project>
