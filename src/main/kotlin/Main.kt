@@ -7,7 +7,7 @@ import java.util.*
 fun main () {
     //exchange the default value
 
-    var result = add(b = 3, a = 7)
+    var result = add(b = 2, a = 8)
     println(result)
 }
 
