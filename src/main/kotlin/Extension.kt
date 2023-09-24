@@ -1,17 +1,21 @@
 
-//kotlin Extension Function(Companion Function)
+//kotlin Higher Order Function
 
-
-class Example {
-    companion object {
-
-    }
-}
-
-fun Example.Companion.someExample() {
-    println("This is Ajay Kumar")
-}
 
 fun main() {
-    Example.someExample()
+    var sm:(a:Int, b:Int) -> Int = ::sum
+    println(sm(3,7))
+    calculator(5,15, ::sum)
+
+
+}
+
+
+fun sum (a:Int, b:Int) : Int {
+    return a+b
+}
+
+fun calculator(a:Int, b:Int, sum:(Int, Int) -> Int) {
+    val result = sum(a,b)
+    println(result)
 }
