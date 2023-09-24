@@ -1,29 +1,28 @@
 
-//kotlin Scope Function ( With )
+//kotlin Scope Function ( apply )
 
 
 
 class Person {
-    var name:String? = "PersonName"
-    var age:Int = 20
+    var name:String? = ""
+    var age:Int = 0
 }
 
 
 
 fun main() {
-    val person = Person()
 
     //Ordinary code
-    println(person.name)
-    println(person.age)
+    val person = Person()
+    person.name = "personName"
+    person.age = 26
 
-    //code using with scope()
-    var returnFromWith : String = with(person) {
-        println(name)
-        println(age)
-        "last statement will return as lambda result"
+    //code using apply scope()
+    //it returns the same object after applying
+    val person = Person().apply {
+        name = "PersonName"
+        age = 26
     }
-    println(returnFromWith)
 
 }
 
