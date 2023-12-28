@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="Kotlin Recursion function">
+    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="//kotlin Scope Function ( apply )">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FunTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Extension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Extension.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,94 +46,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694579152627</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Welcome Function">
-      <option name="closed" value="true" />
-      <created>1694580250956</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1694580250956</updated>
-    </task>
-    <task id="LOCAL-00002" summary="takes an array of integers and prints only even numbers.">
-      <option name="closed" value="true" />
-      <created>1694587817254</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1694587817254</updated>
-    </task>
-    <task id="LOCAL-00003" summary="counts the number of vowels in a given string">
-      <option name="closed" value="true" />
-      <created>1694593176112</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1694593176112</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Many Programs in one page">
-      <option name="closed" value="true" />
-      <created>1694776641361</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1694776641361</updated>
-    </task>
-    <task id="LOCAL-00005" summary="find out what version of Kotlin">
-      <option name="closed" value="true" />
-      <created>1694776876358</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1694776876358</updated>
-    </task>
-    <task id="LOCAL-00006" summary="display the current date and time.">
-      <option name="closed" value="true" />
-      <created>1694786425611</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1694786425611</updated>
-    </task>
-    <task id="LOCAL-00007" summary="perform addition, subtraction, multiplication and division of two numbers">
-      <option name="closed" value="true" />
-      <created>1694787447377</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1694787447377</updated>
-    </task>
-    <task id="LOCAL-00008" summary="check if a given number is even or odd">
-      <option name="closed" value="true" />
-      <created>1694788084570</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1694788084570</updated>
-    </task>
-    <task id="LOCAL-00009" summary=" maximum and minimum of three numbers">
-      <option name="closed" value="true" />
-      <created>1694789815846</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1694789815846</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Print an Integer (Entered by the User)">
-      <option name="closed" value="true" />
-      <created>1694846118091</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1694846118091</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Kotlin Program to Add Two Integers">
-      <option name="closed" value="true" />
-      <created>1694846831645</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1694846831645</updated>
     </task>
     <task id="LOCAL-00012" summary="Kotlin Program to Add Two Integers">
       <option name="closed" value="true" />
@@ -429,7 +343,103 @@
       <option name="project" value="LOCAL" />
       <updated>1695399522500</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Kotlin Default Argument function">
+      <option name="closed" value="true" />
+      <created>1695530736062</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1695530736062</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Kotlin Default Argument function with exchange value">
+      <option name="closed" value="true" />
+      <created>1695530901334</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1695530901335</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Kotlin Default Argument function with exchange value">
+      <option name="closed" value="true" />
+      <created>1695531240194</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1695531240194</updated>
+    </task>
+    <task id="LOCAL-00052" summary="//kotlin Extension Function">
+      <option name="closed" value="true" />
+      <created>1695535965529</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1695535965529</updated>
+    </task>
+    <task id="LOCAL-00053" summary="kotlin Extension Function(Find Charecter)">
+      <option name="closed" value="true" />
+      <created>1695536309741</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1695536309742</updated>
+    </task>
+    <task id="LOCAL-00054" summary="kotlin Extension Function(Array exchange)">
+      <option name="closed" value="true" />
+      <created>1695536865996</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1695536865996</updated>
+    </task>
+    <task id="LOCAL-00055" summary="kotlin Extension Function(Companion Function)">
+      <option name="closed" value="true" />
+      <created>1695537059990</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1695537059990</updated>
+    </task>
+    <task id="LOCAL-00056" summary="kotlin Higher Order Function">
+      <option name="closed" value="true" />
+      <created>1695538251160</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1695538251160</updated>
+    </task>
+    <task id="LOCAL-00057" summary="kotlin Scope Function ( Let )">
+      <option name="closed" value="true" />
+      <created>1695552812733</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1695552812733</updated>
+    </task>
+    <task id="LOCAL-00058" summary="//kotlin Scope Function ( Run )">
+      <option name="closed" value="true" />
+      <created>1695553146223</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1695553146223</updated>
+    </task>
+    <task id="LOCAL-00059" summary="//kotlin Scope Function ( With )">
+      <option name="closed" value="true" />
+      <created>1695553515344</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1695553515344</updated>
+    </task>
+    <task id="LOCAL-00060" summary="//kotlin Scope Function ( apply )">
+      <option name="closed" value="true" />
+      <created>1695553763414</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1695553763414</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,17 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Find ASCII value of a character" />
-    <MESSAGE value="to Compute Quotient and Remainder" />
-    <MESSAGE value="the Frequency of Character in a String" />
-    <MESSAGE value="Remove All Whitespaces from a String" />
-    <MESSAGE value="an Alphabet is Vowel or Consonant" />
-    <MESSAGE value="Check Whether a Number is Positive or Negative" />
-    <MESSAGE value="Check Whether a Character is Alphabet or Not" />
-    <MESSAGE value="Calculate the Sum of Natural Numbers" />
-    <MESSAGE value="Find Factorial of a Number" />
-    <MESSAGE value="Find GCD of two Numbers" />
-    <MESSAGE value="Find LCM of two Numbers" />
     <MESSAGE value="Display Characters from A to Z using loop" />
     <MESSAGE value="Kotlin Program to Count Number of Digits in an Integer" />
     <MESSAGE value="Program to Reverse a Number" />
@@ -469,6 +468,17 @@
     <MESSAGE value="Program for extension function features in Kotlin" />
     <MESSAGE value="Program for default and named argument in Kotlin" />
     <MESSAGE value="Kotlin Recursion function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin Recursion function" />
+    <MESSAGE value="Kotlin Default Argument function" />
+    <MESSAGE value="Kotlin Default Argument function with exchange value" />
+    <MESSAGE value="//kotlin Extension Function" />
+    <MESSAGE value="kotlin Extension Function(Find Charecter)" />
+    <MESSAGE value="kotlin Extension Function(Array exchange)" />
+    <MESSAGE value="kotlin Extension Function(Companion Function)" />
+    <MESSAGE value="kotlin Higher Order Function" />
+    <MESSAGE value="kotlin Scope Function ( Let )" />
+    <MESSAGE value="//kotlin Scope Function ( Run )" />
+    <MESSAGE value="//kotlin Scope Function ( With )" />
+    <MESSAGE value="//kotlin Scope Function ( apply )" />
+    <option name="LAST_COMMIT_MESSAGE" value="//kotlin Scope Function ( apply )" />
   </component>
 </project>

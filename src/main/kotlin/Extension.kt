@@ -1,32 +1,19 @@
+import java.util.*
+import kotlin.math.hypot
 
-//kotlin Scope Function ( apply )
-
-
-
-class Person {
-    var name:String? = ""
-    var age:Int = 0
-}
-
+//kotlin default argument
 
 
 fun main() {
+    //call for named argument
+    greet("Ajay")
 
-    //Ordinary code
-    val person = Person()
-    person.name = "personName"
-    person.age = 26
-
-    //code using apply scope()
-    //it returns the same object after applying
-    val person = Person().apply {
-        name = "PersonName"
-        age = 26
-    }
-
+    //cal for default argument
+    greet()
 }
 
-
-
+fun greet(name:String="World") {
+    println("Hello $name")
+}
 
 
