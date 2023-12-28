@@ -1,19 +1,18 @@
 import java.util.*
 import kotlin.math.hypot
 
-//kotlin default argument
+//kotlin named argument
 
 
 fun main() {
-    //call for with argument
-    greet("Ajay")
+    //By using named arguments, we can pass the arguments in any order we want,
+    // which can make the code more readable.
+    greet(lname="kumar", fname = "Ajay", )
 
-    //cal for without argument
-    greet()
 }
 
-fun greet(name:String="World") {
-    println("Hello $name")
+fun greet(fname:String, lname:String) {
+    println(fname+" "+lname)
 }
 
 

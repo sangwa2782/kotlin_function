@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="//kotlin Scope Function ( apply )">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FunTest.kt" beforeDir="false" />
+    <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="//kotlin default argument function">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Extension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Extension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,22 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694579152627</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Kotlin Program to Add Two Integers">
-      <option name="closed" value="true" />
-      <created>1694846873652</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1694846873652</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Find ASCII value of a character">
-      <option name="closed" value="true" />
-      <created>1694847791777</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1694847791777</updated>
     </task>
     <task id="LOCAL-00014" summary="to Compute Quotient and Remainder">
       <option name="closed" value="true" />
@@ -439,7 +420,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695553763414</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="//kotlin default argument function">
+      <option name="closed" value="true" />
+      <created>1703768938312</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1703768938313</updated>
+    </task>
+    <task id="LOCAL-00062" summary="//kotlin default argument function">
+      <option name="closed" value="true" />
+      <created>1703769024358</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1703769024358</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -454,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Display Characters from A to Z using loop" />
     <MESSAGE value="Kotlin Program to Count Number of Digits in an Integer" />
     <MESSAGE value="Program to Reverse a Number" />
     <MESSAGE value="Check Whether a Number is Palindrome or Not" />
@@ -479,6 +475,7 @@
     <MESSAGE value="//kotlin Scope Function ( Run )" />
     <MESSAGE value="//kotlin Scope Function ( With )" />
     <MESSAGE value="//kotlin Scope Function ( apply )" />
-    <option name="LAST_COMMIT_MESSAGE" value="//kotlin Scope Function ( apply )" />
+    <MESSAGE value="//kotlin default argument function" />
+    <option name="LAST_COMMIT_MESSAGE" value="//kotlin default argument function" />
   </component>
 </project>
