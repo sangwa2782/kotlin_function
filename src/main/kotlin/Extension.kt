@@ -5,10 +5,10 @@ import kotlin.math.hypot
 
 
 fun main() {
-    //call for named argument
+    //call for with argument
     greet("Ajay")
 
-    //cal for default argument
+    //cal for without argument
     greet()
 }
 
