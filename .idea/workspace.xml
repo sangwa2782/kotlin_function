@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78c6310a-928c-48c5-9af8-c633dbdee2d4" name="Changes" comment="//kotlin default argument function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Extension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Extension.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +44,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694579152627</updated>
-    </task>
-    <task id="LOCAL-00014" summary="to Compute Quotient and Remainder">
-      <option name="closed" value="true" />
-      <created>1694848315552</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1694848315552</updated>
     </task>
     <task id="LOCAL-00015" summary="the Frequency of Character in a String">
       <option name="closed" value="true" />
@@ -436,7 +429,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703769024358</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="//kotlin default argument function">
+      <option name="closed" value="true" />
+      <created>1703769214798</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1703769214798</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
